@@ -2,8 +2,7 @@
 const mongoose = require('mongoose');
 
 //Set up default mongoose connection
-// var mongoDB = 'mongodb://pranaysaha:leaf123@ds155045.mlab.com:55045/leaf-ecomm';
-const mongoDB = 'mongodb://pranaysaha:voting_app123@ds019976.mlab.com:19976/voting_application';
+const mongoDB = 'mongo_url';
 mongoose.connect(mongoDB, { useNewUrlParser: true, useCreateIndex: true });
 
 //Get the default connection
